@@ -1,0 +1,20 @@
+body {
+	background-color: black;
+}
+
+.header {
+	background-color: #2692eb;
+	color: white;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+.txtColor {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 18px;
+}

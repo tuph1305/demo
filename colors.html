@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="colors.css">
+	<title>Bootstrap 4!</title></head>
+<body>
+
+<div class="container justify-content-between">
+	<div class="d-flex flex-column align-items-center header">
+		<h3>THE GREAT</h1>
+		<h1 id='rgbcolors'>RGB(255, 255, 255)</h1>
+		<h3>GUESSING GAME</h3>	
+	</div>
+
+	<ul class="nav bg-light justify-content-between">
+	  	<li class="nav-item">
+	    	<a class="nav-link active" id="newcolors" href="#">NEW COLORS</a>
+	  	</li>
+	  	<li class="nav-item">
+	    	<a class="nav-link align-items-center" id="message" href="#"></a>
+	  	</li>
+	<div class="d-flex justify-content-end">
+	  	<button type="button" class="btn mr-2 btn-outline-danger" id="easy">Easy</button>
+	  	<button type="button" class="btn mr-2 btn-outline-danger" id="hard">Hard</button>
+	</div>
+	</ul>
+</div>
+
+<div id="container">
+	<div class="row justify-content-center">
+		<div class="col-6">
+			<div class="row justify-content-between" id="colorbox">
+				<div class="col-3 m-2 txtColor"></div>
+				<div class="col-3 m-2 txtColor"></div>
+				<div class="col-3 m-2 txtColor"></div>
+				<div class="col-3 m-2 txtColor"></div>
+				<div class="col-3 m-2 txtColor"></div>
+				<div class="col-3 m-2 txtColor"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="colors.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
